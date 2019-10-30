@@ -22,7 +22,17 @@ header {
   cursor: pointer;
 }
 
-.attribute {
+.score-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.scores {
+  margin: 0 20px;
+  text-align: center;
+}
+
+footer {
   color: rgb(70, 68, 71);
   font-size: 8px;
   display: flex;
