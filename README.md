@@ -1,3 +1,4 @@
 # rock-paper-scissors
-TOP RPS Activity
-Building a Rock, Paper, Scissors game for The Odin Project
+ToP RPS Activity - GUI update!
+
+Updating the Rock, Paper, Scissors game to work with a GUI.
