@@ -1,9 +1,11 @@
 const options = ["rock", "paper", "scissors"];
-let points = {player: 0, computer: 0};
+let points = {};
 let playerScore = document.getElementById('player-score');
 let computerScore = document.getElementById('computer-score');
 
 function init() {
+  points.player = 0;
+  points.computer = 0;
   playerScore.textContent = `${points.player}`
   computerScore.textContent = `${points.computer}`
 }

@@ -12,14 +12,22 @@ body {
 }
 
 header {
-  margin: 10px;
+  padding: 10px;
   font-size: 20px;
 }
 
-.button {
-  margin: 5px;
-  width: 100px;
+.btn-container {
+  position: relative;
+}
+
+input {
+  padding: 15px; 
+  width: 90px;
   cursor: pointer;
+}
+
+input:hover {
+  width: 95px;
 }
 
 .score-container {
@@ -28,7 +36,7 @@ header {
 }
 
 .scores {
-  margin: 0 20px;
+  padding: 0px 20px;
   text-align: center;
 }
 
