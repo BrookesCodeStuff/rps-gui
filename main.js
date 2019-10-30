@@ -59,5 +59,3 @@ const options = ["rock", "paper", "scissors"];
       } while (!(points.player >= 5 || points.computer >= 5))
       points.player == 5 ? console.log("Game over! Player wins!") : console.log("Game over! Computer wins!")
     }
-
-    game();
