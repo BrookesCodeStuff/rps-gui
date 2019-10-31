@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="main-container">
-    <header>Choose Your Destiny</header>
+    <header>Prepare to Fight!</header>
     
     <div class="btn-container">
       <input type="image" src="rock.png" alt="Rock" class="button" id="rock" onclick="playRound()">
@@ -17,7 +17,8 @@
       <input type="image" src="scissors.png" alt="Scissors" class="button" id="scissors" onclick="playRound()">
     </div>
 
-    <button id="play-again" onclick="init()">Play Again</button>
+    <div id="round">Choose Your Weapon</div>
+    <button id="play-again" onclick="init()" hidden>Play Again</button>
   
     <div class="score-container">
       <div class="scores">
