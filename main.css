@@ -16,18 +16,17 @@ header {
   font-size: 20px;
 }
 
-.btn-container {
-  position: relative;
-}
-
-input {
-  padding: 15px; 
+input { 
+  margin: 15px;
   width: 90px;
   cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 50%;
 }
 
 input:hover {
-  width: 95px;
+  box-shadow: 0 1px 6px 0 rgba(125, 85, 163,0.28);
+  border-color: rgba(125, 85, 163,0);
 }
 
 .score-container {
